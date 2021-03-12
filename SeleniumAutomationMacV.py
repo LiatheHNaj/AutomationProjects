@@ -32,7 +32,7 @@ class ChromeSearch(unittest.TestCase):
          except Exception as e:
             print('Failed to delete %s. Reason: %s' % (file_path, e))
 
-      #Creates the anew folder where the .zip gets unzipped and labels it the browser version
+      #Creates anew folder where the .zip gets unzipped and labels it the browser version
       global path
       path = ("/Users/liathe.najdawi/Documents/Test/Downloads/89")
       try:
